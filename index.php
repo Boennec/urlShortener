@@ -1,6 +1,24 @@
 <!-- Is sending a form -->
 <?php
+//vérifier si le champ est saisi, créer une variable
+if(isset($_POST['url'])){
 
+$url = $_POST['url'];
+
+//verification de l'url saisie
+if(filter_var($url, FILTER_VALIDATE_URL)){
+
+
+
+
+}
+//créer un shortcut de l'url
+
+//vérifier si l'url a déjà été demandée "has already been sent
+
+//envoyer l'adresse url et l'adresse raccourcie dans la bdd
+
+}
 
 
 ?>
